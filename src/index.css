@@ -1,0 +1,21 @@
+body {
+    background-color: var(--mantine-color-gray-0);
+}
+
+mark {
+  background-color: var(--mantine-color-yellow-2);
+  padding: 2px 5px;
+  border-radius: var(--mantine-radius-sm);
+  cursor: help;
+  position: relative;
+  font-weight: 600;
+  border: 1px solid var(--mantine-color-yellow-3);
+}
+
+/* Style for the active NavLink in the sidebar */
+.active-nav-link {
+    background-color: var(--mantine-color-blue-light);
+    color: var(--mantine-color-blue-filled);
+    font-weight: 600;
+}
+
